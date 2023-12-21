@@ -1,0 +1,59 @@
+{
+  box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    border: 1px solid #cccccc;
+    max-width: 400px;
+    width: 100%;
+    position: relative;
+}
+
+.card-thumb {
+    position: absolute;
+    top: o;
+    bottom: o;
+    left: 0;
+    height: 100%;
+    width: 175px;
+}
+
+.card-thumb img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.card-content {
+    padding: 20px 20px 20px 195px;
+}
+
+.card-content h3 {
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+
+.card-content p {
+    margin: 0 0 15px;
+    font-size: 16px;
+    color: #aaaaaa;
+}
+
+.card-link {
+    padding: 7px 15px;
+    border-radius: 5px;
+    background-color: #0909f0;
+    color: #ffffff;
+    text-decoration:none;
+    display: inline-block;
+    transition: 0.25s all ease-in-out;
+}
+
+.card-link:hover {
+    background-color: #00ffff;
+}
